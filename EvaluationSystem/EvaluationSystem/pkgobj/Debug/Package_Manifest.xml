@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="88fb0b11-aa8e-4a8b-a618-cef2e31f2b44" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="EvaluationSystem.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\EvaluationSystem\Fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Fonts\glyphicons-halflings-regular.woff2" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\bootstrap-datepicker.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\bootstrap.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\disable-items.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\download.png" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\loading.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style2.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style3.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style5.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style6.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\CSS\style7.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\angular-filter.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\angular.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\angular.min.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\bootstrap-datepicker.fa.min.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\bootstrap-datepicker.min.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\isteven-multi-select.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\isteven-multi-select.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\jquery-1.11.3.min.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\jquery-ui.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\jquery.responsiveTabs.min.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\moment-jalaali.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\moment.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\persianDatePicker.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\QueryString.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\responsiveTabs.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\rzslider.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\angular-chosen.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\angular-sanitize.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\angularjs-dropdown-multiselect.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\chosen.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\chosen.jquery.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\select.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\select.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\select\selectize.default.css" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\serverCall.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\services.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\JS\ui-bootstrap-tpls.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\admin.aspx" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\admin.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\DisplayForm.aspx" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\DisplayForm.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\EditForm.aspx" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Pages\EditForm.js" />
+    <TemplateFile Location="Layouts\EvaluationSystem\Services.aspx" />
+  </TemplateFiles>
+</Solution>

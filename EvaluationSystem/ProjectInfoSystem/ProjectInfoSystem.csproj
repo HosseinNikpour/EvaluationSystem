@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39C48FD5-3F9B-4CF8-8C0D-23A384F752F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectInfoSystem</RootNamespace>
+    <AssemblyName>ProjectInfoSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\ProjectInfoSystem\Classes.cs" />
+    <Compile Include="Layouts\ProjectInfoSystem\HNservice.aspx.cs">
+      <DependentUpon>HNservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\HNservice.aspx.designer.cs">
+      <DependentUpon>HNservice.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.aspx.cs">
+      <DependentUpon>DisplayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.aspx.designer.cs">
+      <DependentUpon>DisplayForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.aspx.cs">
+      <DependentUpon>DisplayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.aspx.designer.cs">
+      <DependentUpon>DisplayForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\ProjectInfoSystem\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+    <None Include="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2127ae78-c3d6-45b7-8d2d-ce059b03d953}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{13bcd418-5506-4504-a287-8b45c72d32c4}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layouts\ProjectInfoSystem\CSS\bootstrap.min.css" />
+    <Content Include="Layouts\ProjectInfoSystem\CSS\loading.css" />
+    <Content Include="Layouts\ProjectInfoSystem\CSS\style3.css" />
+    <Content Include="Layouts\ProjectInfoSystem\HNservice.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\angular.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\angular.min.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\jquery-1.11.3.min.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\jquery-3.2.1.min.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\moment-jalaali.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\moment.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\QueryString.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\angular-chosen.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\angular-sanitize.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\angularjs-dropdown-multiselect.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\chosen.css" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\chosen.jquery.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\select.css" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\select.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\select\selectize.default.css" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\serverCall.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\service.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\services_update.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\service_11.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\sharepointAccess.js" />
+    <Content Include="Layouts\ProjectInfoSystem\JS\ui-bootstrap-tpls.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.aspx" />
+    <Content Include="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.js" />
+    <Content Include="Layouts\ProjectInfoSystem\Services.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

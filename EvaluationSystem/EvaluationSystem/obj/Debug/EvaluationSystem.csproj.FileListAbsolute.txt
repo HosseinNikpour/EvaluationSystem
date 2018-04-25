@@ -1,0 +1,5 @@
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\EvaluationSystem\obj\Debug\EvaluationSystem.csprojResolveAssemblyReference.cache
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\EvaluationSystem\bin\Debug\EvaluationSystem.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\EvaluationSystem\bin\Debug\EvaluationSystem.pdb
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\EvaluationSystem\obj\Debug\EvaluationSystem.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\EvaluationSystem\obj\Debug\EvaluationSystem.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="88fb0b11-aa8e-4a8b-a618-cef2e31f2b44" solutionId="88fb0b11-aa8e-4a8b-a618-cef2e31f2b44" resetWebServer="false" sharePointProductVersion="15.0" name="EvaluationSystem" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="b336bc43-26b2-4719-b989-6e1a1fc0c904" />
+  </projectItems>
+</package>

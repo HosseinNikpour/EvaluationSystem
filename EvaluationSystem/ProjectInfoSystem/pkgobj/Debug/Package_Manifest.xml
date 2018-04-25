@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="13bcd418-5506-4504-a287-8b45c72d32c4" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ProjectInfoSystem.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\fonts\glyphicons-halflings-regular.woff2" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\CSS\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\CSS\loading.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\CSS\style3.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\HNservice.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\angular.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\angular.min.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\jquery-1.11.3.min.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\jquery-3.2.1.min.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\moment-jalaali.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\moment.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\QueryString.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\angular-chosen.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\angular-sanitize.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\angularjs-dropdown-multiselect.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\chosen.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\chosen.jquery.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\select.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\select.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\select\selectize.default.css" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\serverCall.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\service.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\services_update.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\service_11.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\sharepointAccess.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\JS\ui-bootstrap-tpls.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\DisplayForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\EditForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Operation\NewForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\DisplayForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\EditForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.aspx" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Pages\Plan\NewForm.js" />
+    <TemplateFile Location="Layouts\ProjectInfoSystem\Services.aspx" />
+  </TemplateFiles>
+</Solution>

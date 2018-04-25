@@ -1,0 +1,5 @@
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\ProjectInfoSystem\bin\Debug\ProjectInfoSystem.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\ProjectInfoSystem\bin\Debug\ProjectInfoSystem.pdb
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\ProjectInfoSystem\obj\Debug\ProjectInfoSystem.dll
+c:\users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\ProjectInfoSystem\obj\Debug\ProjectInfoSystem.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\EvaluationSystem\ProjectInfoSystem\obj\Debug\ProjectInfoSystem.csprojResolveAssemblyReference.cache
